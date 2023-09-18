@@ -13,6 +13,6 @@ if ($cek > 0) {
 	$_SESSION['username'] = $username;
 	header("location:dashboard.php");
 }else {
-	header("location:index.php?pesan=gagal");
+	header("location:index.html?pesan=gagal");
 }
 ?>
